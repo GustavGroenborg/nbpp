@@ -16,10 +16,6 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
 *.lai
 *.la
@@ -30,3 +26,19 @@
 *.exe
 *.out
 *.app
+
+# Build related
+build/
+compile_commands.json
+
+# Valgrind
+valgrind-out.txt
+
+# VCPKG
+vcpkg_installed/
+vcpkg-configuration.json
+vcpkg-manifest-install.log
+
+# Other
+.cache/
+stdlib_test/
